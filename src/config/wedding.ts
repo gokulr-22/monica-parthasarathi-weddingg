@@ -69,11 +69,11 @@ const VENUE_MAPS =
 export const wedding = {
  groom: {
   en: "Dr.Parthasarathi",
-  ta: "Dr.பார்த்தசாரதி",
+  ta: "DR.பார்த்தசாரதி",
 },
 bride: {
   en: "Dr.Monica",
-  ta: "Dr.மோனிகா",
+  ta: "DR.மோனிகா",
 },
 
   timezone: "Asia/Kolkata",
