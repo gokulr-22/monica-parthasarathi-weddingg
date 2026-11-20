@@ -158,49 +158,35 @@ export const wedding = {
 
   /** Add photos here (upload them first). Empty = tasteful "coming soon" note. */
   gallery: [
-    {
-      src: "/gallery/couple4.jpg",
-      alt: {
-        en: "A memorable couple photograph",
-        ta: "மணமக்களின் நினைவுப் புகைப்படம்",
-      },
-      caption: {
-        en: "A memory to cherish",
-        ta: "நினைவில் என்றும் நிற்கும் தருணம்",
-      },
-      category: "memories",
-      width: 1200,
-      height: 1600,
+  {
+    src: "/gallery/couple1.jpeg",
+    alt: {
+      en: "A beautiful moment of the couple",
+      ta: "மணமக்களின் அழகான தருணம்",
     },
-    {
-      src: "/gallery/couple5.jpg",
-      alt: {
-        en: "A memorable couple photograph",
-        ta: "மணமக்களின் நினைவுப் புகைப்படம்",
-      },
-      caption: {
-        en: "A memory to live forever",
-        ta: "நினைவில் என்றும் நிற்கும் தருணம்",
-      },
-      category: "memories",
-      width: 1200,
-      height: 1600,
+    caption: {
+      en: "A beautiful beginning ❤️",
+      ta: "அழகான தொடக்கம் ❤️",
     },
-    {
-      src: "/gallery/couple1.jpg",
-      alt: {
-        en: "A beautiful moment of the couple",
-        ta: "மணமக்களின் அழகான தருணம்",
-      },
-      caption: {
-        en: "A beautiful beginning ❤️",
-        ta: "அழகான தொடக்கம் ❤️",
-      },
-      category: "couple",
-      width: 1200,
-      height: 1600,
+    category: "couple",
+    width: 1200,
+    height: 1600,
+  },
+  {
+    src: "/gallery/couple2.jpeg",
+    alt: {
+      en: "A beautiful moment of the couple",
+      ta: "மணமக்களின் அழகான தருணம்",
     },
-  ] as GalleryPhoto[],
+    caption: {
+      en: "Together forever ❤️",
+      ta: "என்றென்றும் ஒன்றாக ❤️",
+    },
+    category: "couple",
+    width: 1200,
+    height: 1600,
+  },
+] as GalleryPhoto[],
 
   /** Add real story chapters here. Empty = section hidden. */
   story: [] as StoryChapter[],
