@@ -97,10 +97,10 @@ export function IntroScreen({ onDone }: { onDone: () => void }) {
               {/* Groom */}
               <span
                 className={cn(
-                  "block w-full",
+                  "block w-full whitespace-nowrap",
                   lang === "ta"
-                    ? "text-[clamp(1.4rem,6vw,2.4rem)]"
-                    : "text-[clamp(1.2rem,5.5vw,2.2rem)] uppercase"
+                    ? "text-[clamp(1.2rem,5vw,2rem)]"
+                    : "text-[clamp(0.9rem,4.2vw,1.6rem)] uppercase"
                 )}
               >
                 {wedding.groom[lang]}
@@ -114,10 +114,10 @@ export function IntroScreen({ onDone }: { onDone: () => void }) {
               {/* Bride */}
               <span
                 className={cn(
-                  "block w-full",
+                  "block w-full whitespace-nowrap",
                   lang === "ta"
-                    ? "text-[clamp(1.4rem,6vw,2.4rem)]"
-                    : "text-[clamp(1.2rem,5.5vw,2.2rem)] uppercase"
+                    ? "text-[clamp(1.2rem,5vw,2rem)]"
+                    : "text-[clamp(0.9rem,4.2vw,1.6rem)] uppercase"
                 )}
               >
                 {wedding.bride[lang]}

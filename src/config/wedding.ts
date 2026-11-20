@@ -67,15 +67,14 @@ const VENUE_MAPS =
   "https://www.google.com/maps/place/Bhavani+Mahal/@11.7529462,79.7085197,17z/data=!4m6!3m5!1s0x3a54a3fd4d5e57f3:0x47a640ef04b7c4b2!8m2!3d11.7529462!4d79.7085197!16s%2Fg%2F11q41kf2wv";
 
 export const wedding = {
-  groom: {
-    en: "Parthasarathi",
-    ta: "பார்த்தசாரதி",
-  } as Localized,
-
-  bride: {
-    en: "Monica",
-    ta: "மோனிகா",
-  } as Localized,
+ groom: {
+  en: "Dr.Parthasarathi",
+  ta: "Dr.பார்த்தசாரதி",
+},
+bride: {
+  en: "Dr.Monica",
+  ta: "Dr.மோனிகா",
+},
 
   timezone: "Asia/Kolkata",
 
