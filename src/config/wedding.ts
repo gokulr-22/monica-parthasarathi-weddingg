@@ -200,48 +200,6 @@ export const wedding = {
       width: 1200,
       height: 1600,
     },
-    {
-      src: "/gallery/couple2.jpg",
-      alt: {
-        en: "Parthasarathi and Monica together",
-        ta: "பார்த்தசாரதி மற்றும் மோனிகா ஒன்றாக",
-      },
-      caption: {
-        en: "Together, forever",
-        ta: "என்றென்றும் ஒன்றாக",
-      },
-      category: "couple",
-      width: 1200,
-      height: 1600,
-    },
-    {
-      src: "/gallery/couple3.jpg",
-      alt: {
-        en: "A lovely moment between the couple",
-        ta: "ஜோடியின் அழகான தருணம்",
-      },
-      caption: {
-        en: "Little moments, big love ❤️",
-        ta: "சிறிய தருணங்கள், பெரிய அன்பு ❤️",
-      },
-      category: "couple",
-      width: 1200,
-      height: 1600,
-    },
-    {
-      src: "/gallery/ringexchange.jpg",
-      alt: {
-        en: "The ring exchange ceremony",
-        ta: "மோதிரம் மாற்றும் நிகழ்ச்சி",
-      },
-      caption: {
-        en: "A promise of forever 💍",
-        ta: "என்றென்றும் ஒன்றாக இருப்பதற்கான வாக்குறுதி 💍",
-      },
-      category: "engagement",
-      width: 1200,
-      height: 1600,
-    },
   ] as GalleryPhoto[],
 
   /** Add real story chapters here. Empty = section hidden. */
