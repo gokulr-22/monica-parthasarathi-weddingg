@@ -28,24 +28,20 @@ export function Gallery({ photos = wedding.gallery }: { photos?: GalleryPhoto[] 
           </Reveal>
         ) : (
           <>
-            {categories.length > 1 && (
-              <div role="group" aria-label={t.galleryTitle} className="mb-8 flex flex-wrap justify-center gap-2">
-                {(["all", ...categories] as const).map((c) => (
-                  <button
-                    key={c}
-                    type="button"
-                    aria-pressed={filter === c}
-                    onClick={() => setFilter(c)}
-                    className={cn(
-                      "min-h-10 rounded-full border px-4 font-label text-xs font-semibold uppercase tracking-wider transition",
-                      filter === c ? "border-maroon bg-maroon text-ivory" : "border-gold bg-warm-white text-maroon hover:bg-ivory-deep",
-                    )}
-                  >
-                    {c === "all" ? t.galleryAll : t.galleryCategory[c]}
-                  </button>
-                ))}
-              </div>
-            )}
+           <div
+  role="group"
+  aria-label={t.galleryTitle}
+  className="mb-8 flex flex-wrap justify-center gap-2"
+>
+  <button
+    type="button"
+    aria-pressed={true}
+    onClick={() => setFilter("all")}
+    className="min-h-10 rounded-full border border-maroon bg-maroon px-4 font-label text-xs font-semibold uppercase tracking-wider text-ivory transition"
+  >
+    {t.galleryAll}
+  </button>
+</div>
 
             {/* Uniform grid: every photo sits in the same 4:5 frame and is cropped to fit. */}
             <ul className="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3">
